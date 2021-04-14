@@ -23,6 +23,7 @@
         <druid.version>1.2.5</druid.version>
         <redisson.version>3.15.3</redisson.version>
         <hutool.version>5.6.2</hutool.version>
+        <guava.version>29.0-jre</guava.version>
     </properties>
 
     <dependencies>
@@ -79,6 +80,11 @@
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
             <version>${hutool.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
         </dependency>
         <!-- DEVTOOLS END -->
     </dependencies>
